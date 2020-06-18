@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>title</title>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=font1|font2|etc" type="text/css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+</head>
+<body>
+<ul class="fly-in-text hidden">
+    <li>W</li>
+    <li>E</li>
+    <li>L</li>
+    <li>C</li>
+    <li>O</li>
+    <li>M</li>
+    <li>E</li>
+</ul>
+    <section id="pageA">
+
+        <nav>
+            <ul>
+                <li><a href="#pageA"> Welcome </a></li>
+                <li><a href="#pageB"> Page 2 </a></li>
+                <li><a href="#pageC"> Page 3 </a></li>
+                <li><a href="#pageD"> Page 4 </a></li>
+            </ul>
+        </nav>
+        <h1 id="mainA">Space Odyssey</h1>
+    </section>
+    <section id="pageB">
+        <h1 id="mainB">Articles</h1>
+    </section>
+    <section id="pageC">
+        <h1 id="mainC">Facts</h1>
+    </section>
+    <section id="pageD">
+        <h1 id="mainD">Videos</h1>
+    </section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(function () {
+
+    setTimeout(function() {
+        $('.fly-in-text').removeClass('hidden');
+    }, 500 );
+
+
+    }());
+</script>
+</body>
+</html>
